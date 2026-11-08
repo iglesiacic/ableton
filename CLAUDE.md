@@ -1,26 +1,6 @@
-# Luces de la tarima (iglesiacic)
+# Proyecto: iluminación de la iglesia con grandMA2 y Ableton
 
-Plano publicado: https://claude.ai/artifact/TGTsVGhx3vJSkwVbcWaLhH
-Izquierda y derecha son las del público mirando la pantalla.
-
-## Código del plano → nombre que usa el usuario
-
-| Código | Qué es | Nombre |
-|---|---|---|
-| P1–P5 | PAR redondo pequeño, barra del fondo sobre la pantalla | **Pares Cris** |
-| G1–G4 | PAR grande bajo la pantalla | **Techo Cris** |
-| F1–F4 | Fresnel con viseras, centro de la barra principal | **Front Cris** |
-| B1–B2 | Barra de 5 LED, a los lados de la barra principal | **Barras Cris** |
-| M1–M2 | Cabeza móvil en el piso, una a cada lado | **Ambas Spot** |
-| C1–C2 | Foco pequeño en los extremos de la barra principal | **Batería Cris** |
-| A1–A2 | Altavoz colgado | sin nombre |
-
-## Pendiente de confirmar
-
-- Puntos celestes en el fondo (¿luces o reflejos?).
-- Cantidad de luces de sala.
-
-## Contexto del proyecto
-
-- Ableton Live 12.0.15 en Mac, conectado con AbletonMCP (Remote Script en la carpeta de la app).
-- Canciones del set, cada una en su propia pista: Bienvenido Espíritu Santo, Mientras viva, Dance Medley, Vuelvo a casa, Agradecido estoy.
+- La fuente de verdad del escenario es la Skill `.claude/skills/stage-architect/`. Léela antes de hablar de luces. No inventes posiciones, fixtures ni capacidades; lo que no esté ahí está pendiente.
+- Nombres que usa el usuario: Pares Cris, Techo Cris, Front Cris, Barras Cris, Ambas Spot, Batería Cris (equivalencias en `grandma2/groups.md`).
+- Ableton Live 12.0.15 en Mac, conectado con AbletonMCP. Canciones del set, cada una en su pista: Bienvenido Espíritu Santo, Mientras viva, Dance Medley, Vuelvo a casa, Agradecido estoy.
+- Aún no se crean shows musicales. Primero se completa el levantamiento del escenario.
