@@ -1,19 +1,31 @@
 # Grupos, layers y ejecutores
 
-## Nombres del usuario (`CONFIRMADO`)
+## Pool de grupos (`CONFIRMADO` como lectura de pantalla)
 
-El usuario confirmó que **estos nombres son grupos de grandMA2**.
+Fuente: `evidence/2026-11-08-ma2-group-pool.png` (pool "Group", 39 posiciones visibles). Ocupadas: 1–6 y 11–14. El resto está vacío. Nombres tal como se ven en pantalla.
 
-| Grupo (nombre del usuario) | Plano | Cantidad (fotos) | Luminarias |
-|---|---|---|---|
-| Pares Cris | P1–P5 | 5 | TR2-PAR01..05 |
-| Techo Cris | G1–G4 | 4 | SCR-PAR01..04 |
-| Front Cris | F1–F4 | 4 | TR1-FRS01..04 |
-| Barras Cris | B1–B2 | 2 | TR1-BAR01..02 |
-| Ambas Spot | M1–M2 | 2 | FLOOR-MH01..02 |
-| Batería Cris | C1–C2 | 2 | TR1-SML01..02 |
+| Group # | Nombre en consola | Plano | Contenido (fixtures) | Estado del contenido |
+|---|---|---|---|---|
+| 1 | TECHO CRIS | G1–G4 | PENDIENTE (se espera 1–4) | ESTIMADO |
+| 2 | BARRAS CRIS | B1–B2 | PENDIENTE (se espera 5–6) | ESTIMADO |
+| 3 | AMBAS SPOT | M1–M2 | PENDIENTE (se espera 7–8) | ESTIMADO |
+| 4 | PARES CRIS | P1–P5 | PENDIENTE (se espera 9–13) | ESTIMADO |
+| 5 | BATERIA CRIS | C1–C2 | PENDIENTE (se espera 14 y ¿otro?) | ESTIMADO |
+| 6 | FRONT CRIS | F1–F4 | PENDIENTE (se espera 15 y más) | ESTIMADO |
+| 11 | IZQUIERDA SPOT | M1 o M2 | PENDIENTE (¿fixture 8?) | ESTIMADO |
+| 12 | DERECHA SPOT | M2 o M1 | PENDIENTE (¿fixture 7?) | ESTIMADO |
+| 13 | PARES FONDO | PENDIENTE | PENDIENTE | PENDIENTE |
+| 14 | PARES ALFRENTE | PENDIENTE | PENDIENTE | PENDIENTE |
 
-Qué fixtures tiene cada grupo dentro de la consola, y su número de grupo, **no se han visto** (`PENDIENTE`).
+Los grupos 1 al 6 coinciden con los nombres del usuario. Los grupos 11 al 14 no estaban en la lista del usuario.
+
+### Dudas sobre los grupos 13 y 14
+
+`PARES FONDO` y `PARES ALFRENTE` ("al frente") no se pueden asignar solos. Hay dos tipos de PAR en las fotos: los 5 pequeños de la barra del fondo (TRUSS 2) y los 4 grandes de la pantalla. No se sabe si estos grupos los reparten así ni qué fixtures tienen. No asumir.
+
+### Qué hay en el pool que no es grupo
+
+La pantalla también muestra vistas de usuario (TIMECODE, BUTONS, POSITION, GROUP, CLEAR, BARS, LAYAOU, FX, PICKER). No se analizaron.
 
 ## Lo que muestra la captura (`CONFIRMADO` como lectura de pantalla)
 
@@ -47,8 +59,9 @@ Los seis tienen un cue y aparecen con el mismo formato. Para qué sirven exactam
 
 ## Pendiente
 
-- Captura del pool de **Groups** con sus números y los fixtures de cada grupo.
-- Confirmar si "Pares Cris", "Techo Cris", etc. son el nombre exacto del grupo o una forma de llamarlo.
+- Qué fixtures contiene cada grupo (la captura solo muestra nombres y números).
+- Qué son `PARES FONDO` y `PARES ALFRENTE`.
+- En `IZQUIERDA SPOT` y `DERECHA SPOT`, la izquierda y derecha: ¿desde la congregación o desde el escenario?
 - Qué significa "Cris" en los nombres.
 
 ## Reglas

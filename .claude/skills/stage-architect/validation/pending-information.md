@@ -16,7 +16,7 @@ Estado: **Fase 1 completa en lo posible, Fase 2 y 4 parciales.** El usuario no t
 1. Seguir bajando en la lista de Layers (vista EditSetup → Layers) y mandar captura de lo que sigue después de `FRONT`. Faltan al menos 3 fronts y el segundo foco de batería.
 2. Captura de **Setup → Patch & Fixture Schedule** (todos los fixtures con universo y dirección).
 3. Captura de **Fixture Types**, para ver modos y canales.
-4. Captura del pool de **Groups** con sus números.
+4. Contenido de cada grupo (qué fixtures tiene). El pool ya se vio: ver `grandma2/groups.md`.
 5. Versión del software y nombre del showfile.
 
 ### Aclaraciones ★
@@ -25,6 +25,10 @@ Estado: **Fase 1 completa en lo posible, Fase 2 y 4 parciales.** El usuario no t
 8. El fixture 3 (`TECHO 3`) es un **Colorado 1 Tri**. ¿Es ese el modelo de los 4 PAR grandes bajo la pantalla?
 9. Batería: hay 2 focos pequeños (C1, C2) pero un solo layer WASH BATERIA. ¿Son dos fixtures en uno, o hay otro layer?
 10. ¿Cuál es el orden de izquierda a derecha de los fixtures dentro de cada grupo? Se asumió el orden de fixture ID.
+
+### Grupos nuevos ★
+10b. ¿Qué son `PARES FONDO` (grupo 13) y `PARES ALFRENTE` (grupo 14)? ¿Cuántos fixtures y cuáles tienen?
+10c. `IZQUIERDA SPOT` y `DERECHA SPOT` (grupos 11 y 12): ¿izquierda y derecha desde la congregación o desde el escenario?
 
 ### Zona de los PAR grandes
 11. Los 4 PAR cuelgan de la pantalla y no están en una truss ni en el piso. ¿Los dejo como zona propia (`SCR-`), o los cuentas como FLOOR?
