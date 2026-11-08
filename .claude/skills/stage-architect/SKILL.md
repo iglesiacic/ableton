@@ -21,7 +21,7 @@ Una foto no confirma modelo, dirección DMX, modo ni atributos.
 
 ## Zonas
 
-`TRUSS 1`, `TRUSS 2` y `FLOOR`. El mapeo entre las barras vistas en las fotos y estas zonas está `PENDIENTE` (ver `validation/pending-information.md`).
+`TRUSS 1` (barra frontal con altavoces, `CONFIRMADO`), `TRUSS 2` (barra de 5 PAR sobre la pantalla, `CONFIRMADO`) y `FLOOR`. Los 4 PAR grandes cuelgan de la pantalla y su zona está `PENDIENTE` (ID provisional `SCR-`). Evidencia de consola: `evidence/`.
 
 ## Mapa de archivos
 
@@ -58,8 +58,8 @@ Ante una consulta (qué luces hay, dónde, qué controlan, cuáles trabajan junt
 
 ## Fases
 
-1. Recopilación de fotografías (en curso).
-2. Identificación y clasificación de luminarias (borrador).
+1. Recopilación de fotografías (hecha: 5 fotos, sin más disponibles).
+2. Identificación y clasificación de luminarias (borrador, con captura de layers).
 3. Mapa espacial.
 4. Importación del patch de grandMA2.
 5. Validación con el usuario.

@@ -1,45 +1,54 @@
 # Información pendiente
 
-Estado del proyecto: **Fase 1 en curso.** No avanzar a la Fase 3 sin las respuestas marcadas ★.
+Estado: **Fase 1 completa en lo posible, Fase 2 y 4 parciales.** El usuario no tiene más fotos. El siguiente avance depende de la consola.
 
-## Preguntas al usuario
+## Respondidas (2026-11-08)
 
-### Zonas ★
-1. ¿Cuál es TRUSS 1 y cuál TRUSS 2? ¿Es TRUSS 1 la barra frontal con altavoces y TRUSS 2 la barra de los 5 PAR sobre la pantalla?
-2. Los 4 PAR grandes bajo la pantalla: ¿son FLOOR, TRUSS 1, TRUSS 2 u otra estructura?
-3. ¿Hay más luces fuera del encuadre de las fotos (laterales, detrás del público, en el techo)?
+- Zonas: TRUSS 1 = barra frontal; TRUSS 2 = barra sobre la pantalla.
+- PAR grandes: cuelgan de la pantalla.
+- No hay más luces.
+- Son grupos de grandMA2.
+- No hay fotos de cerca para los modelos.
 
-### Fotos
-4. Fotos que faltan: vista lateral de cada estructura, vista desde el escenario hacia el público, y cada estructura de cerca para ver modelo y etiqueta.
-5. Foto de la etiqueta de cada tipo de luz (modelo).
+## Preguntas abiertas ★ = bloquea avance
 
-### Medidas ★
-6. Ancho y fondo del escenario, altura de cada estructura, distancia al borde del escenario y separación entre luces.
-7. Origen de coordenadas: ¿el centro del borde frontal del escenario?
+### Consola ★
+1. Seguir bajando en la lista de Layers (vista EditSetup → Layers) y mandar captura de lo que sigue después de `FRONT`. Faltan al menos 3 fronts y el segundo foco de batería.
+2. Captura de **Setup → Patch & Fixture Schedule** (todos los fixtures con universo y dirección).
+3. Captura de **Fixture Types**, para ver modos y canales.
+4. Captura del pool de **Groups** con sus números.
+5. Versión del software y nombre del showfile.
 
-### grandMA2 ★
-8. Patch completo (exportación o captura): fixture ID, tipo, universo, dirección, modo.
-9. Grupos existentes en la consola y sus números.
-10. ¿"Pares Cris", "Techo Cris" y los demás son grupos de MA2, nombres de fixtures o solo vocabulario?
-11. Versión del software y nombre del showfile.
+### Aclaraciones ★
+6. ¿El segundo layer "TECHO 3" (fixture 4) es en realidad "TECHO 4"?
+7. En la consola, `IZQUIERDA` y `DERECHA` (barras y spots): ¿es desde la congregación o desde el escenario?
+8. El fixture 3 (`TECHO 3`) es un **Colorado 1 Tri**. ¿Es ese el modelo de los 4 PAR grandes bajo la pantalla?
+9. Batería: hay 2 focos pequeños (C1, C2) pero un solo layer WASH BATERIA. ¿Son dos fixtures en uno, o hay otro layer?
+10. ¿Cuál es el orden de izquierda a derecha de los fixtures dentro de cada grupo? Se asumió el orden de fixture ID.
 
-### Datos de las luces
-12. ¿C1 y C2 son PAR RGB, cabezas móviles pequeñas u otra cosa?
-13. Tipo de las cabezas móviles M1 y M2 (spot, beam, wash).
-14. Los puntos celestes del fondo que se ven en dos fotos encendidas: ¿luces o reflejos?
-15. Cantidad y control de las luces de sala. ¿Están en grandMA2?
-16. ¿La pantalla grande es LED o proyección?
-17. ¿Qué significa "Cris" en los nombres?
+### Zona de los PAR grandes
+11. Los 4 PAR cuelgan de la pantalla y no están en una truss ni en el piso. ¿Los dejo como zona propia (`SCR-`), o los cuentas como FLOOR?
 
-## Riesgos de errores conocidos
+### Medidas
+12. Ancho y fondo del escenario, altura de las trusses y de la pantalla, distancias entre luces.
+13. Origen de coordenadas: ¿el centro del borde frontal del escenario?
 
-- Un orden izquierda-derecha equivocado desplaza todos los números dentro de un grupo.
-- Los IDs internos TR1/TR2/FLOOR son provisionales hasta contestar la pregunta 1 y 2.
+### Otros
+14. Puntos celestes en el fondo en dos fotos encendidas: ¿luces o reflejos?
+15. Modelo de C1 y C2, de las cabezas móviles (spot, beam, wash) y de los fresnel, barras y PAR pequeños.
+16. Luces de sala: cantidad y si se controlan desde grandMA2.
+17. ¿La pantalla grande es LED o proyección?
+18. ¿Qué significa "Cris" en los nombres?
+
+## Riesgos conocidos
+
+- Un orden izquierda-derecha equivocado desplaza los fixtures dentro de un grupo.
+- Los vínculos entre luz física y fixture ID son ESTIMADOS hasta ver el patch.
 
 ## Validación final (Fase 5)
 
-- [ ] Todas las luces visibles identificadas
+- [ ] Todas las luces visibles identificadas con fixture ID
 - [ ] Fotos contrastadas con el patch
 - [ ] Sin fixtures duplicados ni faltantes
-- [ ] Zonas confirmadas
-- [ ] Pendientes resueltos o aceptados por el usuario
+- [ ] Zonas confirmadas (TRUSS 1 y 2 hechas; falta la pantalla)
+- [ ] Pendientes resueltos o aceptados

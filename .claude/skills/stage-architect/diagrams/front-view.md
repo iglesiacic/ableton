@@ -14,7 +14,7 @@ flowchart TB
   end
   subgraph S["Pantalla y fondo"]
     direction LR
-    M1["FLOOR-MH01"] --- G1["FLOOR-PAR01"] --- G2["FLOOR-PAR02"] --- G3["FLOOR-PAR03"] --- G4["FLOOR-PAR04"] --- M2["FLOOR-MH02"]
+    M1["FLOOR-MH01"] --- G1["SCR-PAR01"] --- G2["SCR-PAR02"] --- G3["SCR-PAR03"] --- G4["SCR-PAR04"] --- M2["FLOOR-MH02"]
   end
   B --> A --> S
 ```

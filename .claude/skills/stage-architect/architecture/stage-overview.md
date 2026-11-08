@@ -1,6 +1,6 @@
 # Visión general del escenario
 
-Estado de la fase: **Fase 1–2 en curso** (5 fotos recibidas, sin patch).
+Estado de la fase: **Fase 1 hecha, Fase 2 y 4 parciales** (5 fotos y una captura de layers de MA2, sin patch completo).
 
 ## Zonas definidas por el usuario (`CONFIRMADO`)
 
@@ -21,9 +21,12 @@ Fuente: 5 fotos del salón, tomadas desde la sala y desde un lateral.
 - Dos cabezas móviles en el piso, a cada lado del fondo.
 - Luces de sala cálidas y cuadradas en el techo, sobre el público.
 
-## Mapeo a zonas (`PENDIENTE`)
+## Mapeo a zonas (`CONFIRMADO` por el usuario, 2026-11-08)
 
-La hipótesis de trabajo es Barra A = TRUSS 1 y Barra B = TRUSS 2, pero **no está confirmada**. Los 4 PAR grandes bajo la pantalla no tienen zona asignada: están a nivel de la parte baja de la pantalla, no en una barra aérea clara.
+- Barra A (frontal, con altavoces) = **TRUSS 1**.
+- Barra B (5 PAR sobre la pantalla) = **TRUSS 2**.
+- Los 4 PAR grandes cuelgan de la pantalla grande. Su zona está `PENDIENTE` (ID provisional `SCR-`).
+- No hay más luces que las de las fotos.
 
 ## Pantalla
 

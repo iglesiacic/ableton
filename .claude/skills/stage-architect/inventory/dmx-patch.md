@@ -1,21 +1,30 @@
 # Patch DMX
 
-**Sin datos.** No se ha recibido el patch de grandMA2.
+**Datos parciales.** Solo una fila tiene patch real, leída de la captura. Falta el patch completo.
 
-Para llenar esta tabla se necesita una de estas fuentes (de más a menos fiable):
+Formato de la columna Patch en MA2: `universo.dirección` (por ejemplo, `1.013` = universo 1, dirección 13).
 
-1. Exportación del patch desde MA2 (lista de fixtures con universo y dirección).
-2. Captura de la pantalla *Setup → Patch*.
-3. Dictado del usuario, fixture por fixture.
-
-| ID interno | Fixture ID | Universo | Dirección inicial | Modo | Canales | Rango (fin) | Estado |
+| ID interno | Fixture ID | Fixture Type (MA2) | Nombre del fixture | Universo | Dirección | Modo / canales | Estado |
 |---|---|---|---|---|---|---|---|
-| (sin filas) | | | | | | | PENDIENTE |
+| SCR-PAR03 (¿?) | 3 (ChaID 3) | 6 Colorado 1 Tri | C1T7TA1S 1 | 1 | 13 | PENDIENTE | CONFIRMADO en pantalla. Vínculo con SCR-PAR03 ESTIMADO |
+| (resto de fixtures 1–2, 4–15+) | | | | | | | PENDIENTE |
+
+Notas de la fila 3:
+- `React to Master`: On.
+- `Pan DMX Invert` y `Tilt DMX Invert`: vacíos.
+- El fixture type aparece como "Colorado 1 Tri" con número 6 en el pool de tipos. El fabricante y el modo DMX no se leen en la captura. No asumir.
+
+No se puede deducir la dirección de los demás fixtures a partir de esta. Los saltos entre direcciones dependen del tamaño de cada modo.
+
+## Cómo completar
+
+1. Captura de *Setup → Patch & Fixture Schedule* con todos los fixtures.
+2. Captura de *Fixture Types* (para modos y canales).
+3. O una exportación del showfile en modo lectura.
 
 ## Comprobaciones al importar
 
-- Que no haya direcciones solapadas dentro de un universo.
-- Que la suma de canales por fixture coincida con el modo.
-- Que cada fixture del patch tenga una luminaria física en `fixtures.md`.
-- Que cada luminaria de `fixtures.md` aparezca en el patch.
-- Que no haya fixture IDs duplicados.
+- Direcciones solapadas dentro de un universo.
+- Suma de canales por fixture frente al modo.
+- Cada fixture del patch tiene luminaria física en `fixtures.md`, y al revés.
+- Sin fixture IDs duplicados.

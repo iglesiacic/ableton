@@ -16,7 +16,7 @@ Escenario arriba (fondo), público abajo. Esquema `ESTIMADO`, sin escala. Izquie
    Público (sillas rojas, pasillo central)
 ```
 
-Etiquetas: PAR01–05 = `TR2-PAR01..05`, G1–G4 = `FLOOR-PAR01..04`, MH = `FLOOR-MH01/02`, F1–F4 = `TR1-FRS01..04`, BAR = `TR1-BAR01/02`, SML = `TR1-SML01/02`, SPK = altavoces.
+Etiquetas: PAR01–05 = `TR2-PAR01..05`, G1–G4 = `SCR-PAR01..04`, MH = `FLOOR-MH01/02`, F1–F4 = `TR1-FRS01..04`, BAR = `TR1-BAR01/02`, SML = `TR1-SML01/02`, SPK = altavoces.
 
 Falta la profundidad real (eje Y). Todo lo de arriba es orden, no distancia.
 

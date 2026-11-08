@@ -10,7 +10,7 @@
   │   SPK, BAR, FRS, SML                      │
   │                                  ┌────────┤ pantalla
   │                                  │        │
-  │                         FLOOR-PAR01..04   │
+  │                         SCR-PAR01..04   │
   │  tarima frontal   FLOOR-MH01/02           │
   └────────────────────────────────────────────▶ Y (profundidad, hacia el fondo)
   público           escenario

@@ -1,6 +1,6 @@
 # TRUSS 1
 
-**Asignación de la barra física: `PENDIENTE`.** La hipótesis de trabajo es la Barra A (frontal, con altavoces), pero el usuario no la ha confirmado.
+**Asignación: `CONFIRMADO`.** TRUSS 1 es la barra frontal con altavoces (respuesta del usuario, 2026-11-08).
 
 ## Contenido observado en la hipótesis (`ESTIMADO`)
 
@@ -20,7 +20,6 @@ Los altavoces no son luminarias. Se listan porque ocupan lugar en la estructura 
 
 ## Pendiente
 
-- Confirmar que esta barra es TRUSS 1.
 - Altura, largo y distancia al escenario.
 - Orientación (inclinación) de cada luminaria.
 - Modelo y tipo exacto de los focos pequeños (¿PAR RGB o cabezas móviles?).
